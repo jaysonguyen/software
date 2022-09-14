@@ -1,0 +1,68 @@
+- THIS
+*FUNCTION: được gọi hàm trực tiếp qua lời gọi hàm
+VD: Function()
+	+ Declaration funtion
+	+ Expression function
+	+ Arrow function
+*Method: đươc một object cụ thể gọi đến và thực hiện chức năng đó
+VD: Object.method()
+
+* This
+object.method()
+	=> This là object gọi đến method() đó
+	<=> this = object
+
+*This in regular function
+this = global_object (in sloppy mode)
+this = undefined (strict mode)
+
+*This in arrow function
+this = this of this scope
+(where it is defined)
+	VD: const arrowfunction = () => {}
+=> This trong scrope là gì this trong scrope cũng là giá trị trong arrow function
+	VD:
+	this?.
+	const arrowfunction = () => {
+		console.log(this?.name);
+	}
+this hiện tại của nó ở ngoài global nên this.name cũng thuộc global
+=> nó không có this nên nó phải mượn this của thằng cùng với scope của nó nơi nó đươc định nghĩa chứ không phải nơi nó được gọi
+
+		
+	
+
+	
+
+
+ 			|	Strict Mode			| Sloppy mode
+--------------------------------------------------------------------------
+			|	GLOBAL			|	GLOBAL
+Alone			|					|
+(global scope)	|					|
+			|					|
+--------------------------------------------------------------------------
+			|					
+Method		|	trỏ đến object gọi đến method đó			
+			|					
+---------------------------------------------------------------------------
+			|	Undefined			|
+Regular		|					|	Global
+functin		|					|
+			|					|
+			|					|
+			|					|	
+--------------------------------------------------------------------------
+			|					
+			|					
+Arrow Function	|	This = this of it's scope		
+			|					
+						
+				
+
+* Bind(), call(), apply()
+
+
+
+
+				

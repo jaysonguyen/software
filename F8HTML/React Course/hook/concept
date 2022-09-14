@@ -1,0 +1,10 @@
+1. useState(): Trạng thái của dữ liêu
+=> Đơn giản hóa trạng thái của người dùng trên giao diện
+=> Cập nhật dữ liệu mới sau đó render ra dữ liệu mới
+
+##Lưu ý
+    - Component được re-render sau khi `setState`
+    - Initial state chỉ dùng cho lần đầu
+    - Set state với callback
+    - Initial state với callback
+    - Set state là thay thế state bằng giá trị mới

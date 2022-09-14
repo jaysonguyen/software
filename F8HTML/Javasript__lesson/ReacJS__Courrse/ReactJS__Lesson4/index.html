@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+</head>
+
+<body>
+    <div id="app"></div>
+
+
+    <script type="text/babel">
+        /* 1. React element types: string, function/class */
+
+        function Header() {
+            return <div className="header">New header</div>
+        }
+
+        class Content extends React.Component {
+            render() {
+                return (
+                    <div className="content">New content</div>
+                )
+            }
+        }
+
+        // Hỗ trợ viêt function dưới dạng tag
+        const app = (
+            <div className="wrapper">
+                <Header />
+                <Content />
+                <div className="footer">footer</div>
+            </div>
+        )
+
+
+        function PostItem() {
+            return (
+                <div className="post-item">
+                    <h2 className="post-title">C#(.NET) - Tương tác với Excel</h2>
+                    <p className="post-desc">Bạn có kiến thức về ngôn ngữ C#</p>
+                    <p className="post-published">Một ngày trước</p>
+                </div>
+            )
+        }
+
+        const course = (
+            <div className="post-list">
+                <PostItem />
+                <PostItem />
+                <PostItem />
+            </div>
+
+        )
+
+        const root = ReactDOM.createRoot(document.getElementById('app'));
+        root.render(course);
+
+    </script>
+</body>
+
+</html>

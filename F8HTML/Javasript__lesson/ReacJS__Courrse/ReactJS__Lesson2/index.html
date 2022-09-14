@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReactJS</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Add React to website!</h1>
+    <div id="root"></div>
+    <script>
+
+        /* <div class = "post-item">
+                <h2 title="Học React tại F8">Học ReactJS</h2>
+                <p>Học ReactJS từ cơ bản tới nâng cao</P>
+            </div>     
+        */
+        const divReact = React.createElement(
+            'div',
+            {
+                className: 'post-item',
+            },
+            React.createElement(
+                'h2',
+                {
+                    title: 'Học React tại F8',
+                }, 'Học ReacJS Đang sử dụng react',
+            ),
+            React.createElement(
+                'p',
+                null,
+                'Học ReactJS từ cơ bản tới nâng cao'
+            )
+        )
+
+        // Get root Element
+        //React18
+        const container = document.getElementById('root');
+        //React-DOM -> render UI
+        const root = ReactDOM.createRoot(container);
+        root.render(divReact);
+
+    </script>
+</body>
+
+</html>

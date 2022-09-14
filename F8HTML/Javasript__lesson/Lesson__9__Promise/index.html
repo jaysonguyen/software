@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <h1>Promise</h1>
+            <h4>Dùng để: </h4>
+        Khái niệm:
+            + Sync (đồng bộ);<br>
+            - Đồng bộ thằng nào viết trước chạy trước thằng nào set sau chạy sau
+            - Javascript là ngôn ngữ đơn luồng Async
+            - SetTimeout, SetInterval, fetch, XMLHttpRequest, đọc file
+            => Những hành động bất đồng bộ (Async)
+            => Callback dùng để sử lý các thao tác bất đồng bộ.
+            + Async (bất đồng bộ);
+            -Pain: Những khó khăn khi sử dụng Callback khi sử lý Async
+                + Callback hell (ví dụ như call back lồng trong callback) 
+                + Pyramid of doom
+                (have no idea to solve issue)
+            - Concept:
+                + Khái niệm promise:
+                    - Promose sinh ra để xử lý các thao tác bất đồng bộ
+                    trước khi sử dụng promise thì ngta sử dụng callback
+                    tuy nhiên trong vài trường hợp thì nó gây ra callback hell gây ra code
+                    khó nhìn ra rối, khó hiểu nên nó được sinh ra ở bản JS es 6 cản thiện tình trạng
+                    nói trên:
+                    để tạo ra một Promise cần tạo ra một đối tượng thuộc lớp Promise
+                    Trong constructor thì truyền một Excutor function 
+                    Khi Excutor được thực thi thì nhận được 2 tham số Resolve và Reject
+                    Resolve gọi khi sử lý thao tác logic thành công
+                    Reject khi thao tác xử lý thất bại
+
+                    Khi một đối tượng đươc tạo ra ta sẽ sử dụng một phương thức 
+                    then or catch: chúng đều nhân callback function 
+                    sẽ được thực thi then khi vào then khi Promise được Resolve
+                    sẽ được thực thi ở catch khi lọt vào reject
+                + Tính chất
+                    - CHUỖI:
+            
+            - Method:
+                + Promise.resolve
+                + Promise.reject
+                + Promise.all 
+        <br>
+        Nỗi đau khi không có nó    
+    </p>
+
+    <ul id="comment-block">
+        
+    </ul>
+    <script src="./app.js"></script>
+</body>
+</html>

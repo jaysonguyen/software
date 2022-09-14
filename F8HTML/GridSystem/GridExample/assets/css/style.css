@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+  .catagory,
+  .item{
+      margin-top: 16px;
+      font-size: 40px;
+      color: #fff;
+      text-align: center;
+      min-height: 30px;
+      line-height: 180px;
+      background-color: coral;
+  }
+
+  @media (max-width: 1023px){
+    .course-item{
+      margin-top: 16px;
+    }
+  }
+/* Vi du level 3 */
+  .main
+  {
+    display: flex;
+    padding: 0 16px;
+  }
+
+  .side-bar{
+    width: 300px;
+    background-color: #ccc ;
+    color: #fff;
+  }
+
+  .content{
+    flex: 1;
+    background-color: rgb(197, 124, 138);
+    color: #fff;
+  }
+
+  @media (min-width: 740px) and (max-width: 1023px){
+    .hide-sidebar{
+      display: none;
+    }
+    .main{
+      flex: 1;
+    }
+  }
+
+  @media (max-width: 740px){
+    .hide-sidebar{
+      display: none;
+    }
+  }

@@ -1,0 +1,13 @@
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\bin\Debug\netcoreapp3.1\funcdamental-oop-array.exe
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\bin\Debug\netcoreapp3.1\funcdamental-oop-array.deps.json
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\bin\Debug\netcoreapp3.1\funcdamental-oop-array.runtimeconfig.json
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\bin\Debug\netcoreapp3.1\funcdamental-oop-array.runtimeconfig.dev.json
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\bin\Debug\netcoreapp3.1\funcdamental-oop-array.dll
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\bin\Debug\netcoreapp3.1\funcdamental-oop-array.pdb
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\obj\Debug\netcoreapp3.1\funcdamental-oop-array.csproj.AssemblyReference.cache
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\obj\Debug\netcoreapp3.1\funcdamental-oop-array.AssemblyInfoInputs.cache
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\obj\Debug\netcoreapp3.1\funcdamental-oop-array.AssemblyInfo.cs
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\obj\Debug\netcoreapp3.1\funcdamental-oop-array.csproj.CoreCompileInputs.cache
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\obj\Debug\netcoreapp3.1\funcdamental-oop-array.dll
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\obj\Debug\netcoreapp3.1\funcdamental-oop-array.pdb
+C:\Users\nowst\OneDrive\Documents\C#\Fucdamental-OOP-ARRAY\funcdamental-oop-array\obj\Debug\netcoreapp3.1\funcdamental-oop-array.genruntimeconfig.cache

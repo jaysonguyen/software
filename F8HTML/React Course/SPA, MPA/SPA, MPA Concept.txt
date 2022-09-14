@@ -1,0 +1,49 @@
+SPA - Single Page Application
+- Là một trong những thư viện của React
+- Các SPa khác: F8, Facebook
+ * ƯU điểm
+	+ Được cho là cách tiếp cận hiện đại hơn
+	+ Không yêu cầu tải lại trang trong quá trình sử dụng
+
+MPA - Multi - Page Apllication
+- Tải lại trang trong quá trình sử dụng ( khi đổi trang con trỏ trên đầu quay)
+
+
+* SPA Feature
+	+ Only have root in HTML page, added after excute react SPA
+	+ Nhanh hơn được tải về ngay lần đầu được gọi 
+	+ Has only one page with div.root
+	+ Nhanh hơn khi sử dụng
+*MPA
+	+ Chậm hơn khi sử dụng
+	+ Reload page
+
+# Bóc Tách
+	- SPA có phần font-end riêng biệt
+	- MPA Front end & Back0-end phụ thuộc vào nhau nhiều hơn được đặt trong cùng 1 dự án
+	
+#SEO
+	- Không thân thiện với SEO (google khó hiểu hơn)
+	- Trải nghiêm trên thiết bị di đông tốt hơn
+
+#UX
+	- SPA cho trải nghiệm tốt hơn, nhất là các thao tác chuyển trang
+	- Trải nghiệm trên thiết bị di động tốt hơn
+
+#Quá trình phát triển
+	- SPA dễ dàng tái sử dụng code(Component)
+	- SPA bóc tach FE & BE
+		- Chia team phát triển song song
+		- Phát triển them mobile app dễ dàng
+# Phụ thuôc Javascript
+	- SPA phụ thuôc hoàn toàn vào Javascript
+	- MPA có thẻ không cần Javascript
+
+# Choose SPA or MPA?
+	- Not thing perfect in different case
+#Performance
+	- When amout of people use this website SPA better than MPA
+	- With PMA if a lot of people access Every signal will request to server, so it lower than SPA
+# CA
+	- SPA = CSR -> Client side rendering
+	- MPA = SSR -> Server side rendering

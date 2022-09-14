@@ -1,0 +1,63 @@
+
+html{
+    font-size: 100;
+}
+h1{
+    color:blue;
+    font-size: 1rem;
+}
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(16, 16, 235) 
+
+}              
+a::after{
+    content:"("attr(href)")";
+}
+.box::after{
+    content: attr(href);
+}
+.box:hover{
+    background: black;
+}
+.box:active{
+    color:red;
+}
+h:visited{
+    color: seagreen;
+}
+.box::before{
+    content: "xin chao";
+    width: 200px;
+    height: 500px;
+    display: block;
+    background-color: seashell;
+}
+.box::after{
+    content: "xin ccchao";
+    width: 200px;
+    height: 500px;
+   display :block;
+    background-color: rgb(201, 93, 15);
+
+}
+h1::first-letter{
+    font-size: 30px;
+    color:rgb(247, 247, 247)                 
+}
+h1::first-line{
+    color: red;
+}
+li::selection{
+    background-color:black;
+    color: blue;
+    
+}
+li{
+    font-size: 20px;
+}
+#para{
+    font-size: 20px;
+}
+

@@ -1,0 +1,25 @@
+*Comparison
+5 == '5' TRUE
+5 === '5' FALSE
+ TOÁN TỬ '==='
+	+ So sánh cả kiểu của toán hạng
+10 < '8' => nó sẽ cố gắng covert sang kiểu Number
+	=> FALSE
+
+'10' < '8' => sẽ so sánh lần lượt các kí tự
+	=> 1 < 8 TRUE
+
+true == 1 => convert TRUE sang kiểu số
+	true == 1 => True
+null == undefined 
+	+ Với toán tử '=='
+null === undefined
+	+ Với toán tứ '=='
+	=> False
+
+* So sánh 2 object có cùng nội dung 
+	+ JSON.stringify(x) === JSON.stringify(y)
+
+* Best practice
+	user == when checking null or undefined
+Otherwise, use ===

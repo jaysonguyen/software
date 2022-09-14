@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div id="toast"></div>
+
+    <div>
+        <button class="btn btn--success">CLICK ME TO SUCCESS</button>
+        <button class="btn btn--error">CLICK ME TO DEFAULT</button>
+    </div>
+
+    <script>
+        function toast(title = '', message = '', type = 'infor', duration = 3000) {
+            const main = document.getElementById('toast')
+            if (main) {
+                const toast = document.createElement('div')
+                toast.classList.add('toast');
+                toast.innerHTML = `
+                <div class="toast__icon">
+                    <i class='bx bxs-check-circle'></i>
+                </div>
+                 <div class="toast__body">
+                    <h3 class="toast__title">${title}</h3>
+                    <p class="toast__msg">${message}</p>
+                 </div>
+                <div class="toast__close"><i class='bx bx-x'></i></div>
+                `;
+
+                main.appendChild(toast);
+            }
+
+        }
+        toast({
+            title: 'Success',
+            message: 'No pain no gain',
+            type: 'success',
+            duration: 3000
+        });
+
+    </script>
+
+</body>
+
+</html>

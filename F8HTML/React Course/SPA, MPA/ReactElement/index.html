@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Element</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+   <!-- script type="text/babel">
+        const h1DOm = document.createElement('h1');
+        h1DOm.title = 'hello';
+        h1DOm.className = 'heading'
+        h1DOm.innerText = 'Hello guys!'
+        document.body.appendChild(h1DOm); //regular way
+
+
+        const h1React = React.createElement('h1', {
+            title: 'Hello',
+            className: 'Heading',
+        }, 'Hello Guys!');
+
+
+        const ul = document.createElement('list');
+        const li1 = document.createElement('li');
+        li1.innerText = 'One!'
+        const li2 = document.createElement('li');
+        li2.innerText = 'Two!'
+
+        /*  ul.body.appendChild(li1); //regular way
+         ul.body.appendChild(li2); //regular way */
+
+
+        const ulReact = React.createElement('ul', {},
+            React.createElement('li', null, 'Javascript'),
+            React.createElement('li', null, 'ReactJS'),
+        )
+
+        console.log(ulReact)
+
+        //EXERCISE 
+        //Tạo: 
+        /* <div class="post-item">
+                <h2 title="Học React tại F8">Học ReactJS</h2>            
+                <p>Hoc ReactJS từ cơ bản tới nâng cao</p>
+            </div> */
+
+        const postItem = React.createElement('div', {
+            className: "post-Item",
+        },
+            React.createElement('h2', {
+                title: "Học React tại F8",
+            }, "Học ReactJS"),
+            React.createElement('p', null, "Học ReactJS từ cơ bản tới nâng cao"),
+        )
+
+        const div = document.getElementById('root');
+        const root = ReactDOM.createRoot(div);
+        /* root.render(postItem); */
+
+        const babelul = <ul className="BabelList">
+            <li>Javascript</li>
+            <li>ReactJS</li>
+        </ul>;
+
+        const course = [
+            {
+                name: 'HTML, CSS',
+            },
+            {
+                name: 'Responsive web design',
+            },
+            {
+                name: 'ReactJS',
+            },
+        ]
+
+        const courseList = <ul className="BabelList">
+                {course.map((e, index) => <li key={index}>{e.name}</li>)}
+            </ul>
+
+            root.render(courseList);
+
+    </script> -->
+    <script src="./excercise.js" type="text/babel"></script>
+</body>
+
+</html>

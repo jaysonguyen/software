@@ -1,0 +1,13 @@
+{
+  "name": "serve-build",
+  "version": "0.1.0",
+  "description": "Serve your build directory",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

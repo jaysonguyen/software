@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Box-sizing</title>
+        <style>
+            body{
+                margin: 0;
+            }
+            .boxs{
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                padding: 10px;
+                border: 10px solid red;
+                border-radius: 3px;
+                box-sizing: border-box;
+            }
+            .boxs{
+                box-sizing: unset;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="boxs">Đây là cái box</div>
+    </body>
+</html>

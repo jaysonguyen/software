@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+</head>
+<body>
+    
+
+    <div id="root"></div>
+
+    <script>
+
+         // Tạo một thẻ h1 
+        //DOM
+        /*   const h1DOM = document.createElement('h1');
+          h1DOM.title = 'Hello';
+          h1DOM.className = 'heading';
+  
+          h1DOM.innerText = 'Hello guys!';
+  
+          document.body.appendChild(h1DOM) */
+        // React
+       /*  const h1React = React.createElement('h1', {
+            title: 'Hello',
+            className: 'heading'
+        }, 'Hello guys ReactJS!') */
+        // giá trị đầu tiên nhận type of tag
+        // ! giá trị thứ 2 nhận attribute
+        // giá trị thứ 3 nhân con
+        // React.createElement(type, props, children, n)
+
+
+        // Element in Element
+        /* const ulDOm = document.createElement('ul');
+        ulDOm.id = 'ul-id'
+        const liDOm1 = document.createElement('li');
+        liDOm1.id = 'li-1'
+        liDOm1.innerText = 'ReacJS';
+
+        const liDOm2 = document.createElement('li');
+        liDOm2.innerText = 'Javascript';
+
+        ulDOm.appendChild(liDOm1);
+        ulDOm.appendChild(liDOm2);
+
+        document.body.appendChild(ulDOm); */
+
+        // Element in Element in React
+/* 
+        const ulReact = React.createElement(
+            'ul',
+            {
+                id: 'ul-id',
+            },
+            React.createElement(
+                'li',
+                {
+                    id: 'li-1',
+                }, 'PHP'
+            ),
+            React.createElement('li', null, 'C#'),
+        ) */
+
+        const ulReact = React.createElement('ul', {},
+            React.createElement('li', {}, 'Javascript'),
+            React.createElement('li', {}, 'ReactJS'),
+        );
+        const h1React = React.createElement('h1', 
+        {
+            title: 'Hello',
+        }, 'Hello Guys!',
+        )
+
+        const container = document.getElementById('root');
+
+        const root = ReactDOM.createRoot(container);
+        root.render(h1React);
+        
+
+
+        const demo =
+    </script>
+</body>
+</html>

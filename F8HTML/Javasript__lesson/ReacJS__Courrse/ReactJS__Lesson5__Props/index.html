@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Props</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    
+    <!-- React element VD: <div></div>
+        
+        React Component VD: Function App()
+        Sử dụng props giống đối số của component
+    -->
+
+    <div id="app"></div>
+
+    <script type="text/babel">
+         function PostItem({
+            title,
+            description,
+            published,
+         }) {
+            return (
+                <div className="post-item">
+                    <label htmlFor="input-email">Email</label>
+                    <input id="input-email" />
+                    <h2 className="post-title">{title}</h2>
+                    <p className="post-desc">{description}</p>
+                    <p className="post-published">{published}</p>
+                </div>
+            )
+        }
+
+        const course = (
+            <div className="post-list">
+                <PostItem
+                    title= "C#(.NET) - Tương tác với Excel"
+                    description="Bạn có kiến thức về ngôn ngữ C#"
+                    published="Một ngày trước"
+                /> 
+                <PostItem
+                    title= "Python - Tương tác với Excel"
+                    description="Bạn có kiến thức về ngôn ngữ Python"
+                    published="Một ngày trước"
+                /> 
+            </div>
+            /* Truyền props vào như một đối số */
+
+        )
+
+        const root = ReactDOM.createRoot(document.getElementById('app'));
+        root.render(course);
+
+    </script>
+</body>
+</html>

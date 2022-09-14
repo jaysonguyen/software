@@ -1,0 +1,14 @@
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\bin\Debug\netcoreapp3.1\sorting.exe
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\bin\Debug\netcoreapp3.1\sorting.deps.json
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\bin\Debug\netcoreapp3.1\sorting.runtimeconfig.json
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\bin\Debug\netcoreapp3.1\sorting.runtimeconfig.dev.json
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\bin\Debug\netcoreapp3.1\sorting.dll
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\bin\Debug\netcoreapp3.1\sorting.pdb
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.csproj.AssemblyReference.cache
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.AssemblyInfoInputs.cache
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.AssemblyInfo.cs
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.csproj.CoreCompileInputs.cache
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.dll
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.pdb
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\Programming\C#\UNICA\sorting\sorting\obj\Debug\netcoreapp3.1\sorting.genruntimeconfig.cache

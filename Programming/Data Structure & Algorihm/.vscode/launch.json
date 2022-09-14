@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch _intersertion_sort",
+            "request": "launch",
+            "mainClass": "_intersertion_sort",
+            "projectName": "Data Structure & Algorihm_c2b9a668"
+        },
+        {
+            "type": "java",
+            "name": "Launch _Selection_sort",
+            "request": "launch",
+            "mainClass": "_Selection_sort",
+            "projectName": "Data Structure & Algorihm_c2b9a668"
+        },
+        {
+            "type": "java",
+            "name": "Launch _Bubble_sort",
+            "request": "launch",
+            "mainClass": "_Bubble_sort",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _Bubble_Sort",
+            "request": "launch",
+            "mainClass": "_Bubble_Sort",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _Find_Pivot_Index",
+            "request": "launch",
+            "mainClass": "_Find_Pivot_Index",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _Plus_One",
+            "request": "launch",
+            "mainClass": "_Plus_One",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _Move_Zeros",
+            "request": "launch",
+            "mainClass": "_Move_Zeros",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1662_Check_If_Two_Strng",
+            "request": "launch",
+            "mainClass": "_1662_Check_If_Two_Strng",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _387_Frist_Unique_char",
+            "request": "launch",
+            "mainClass": "_387_Frist_Unique_char",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _string_char",
+            "request": "launch",
+            "mainClass": "_string_char",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1672_Riches_Custumer_Wealth",
+            "request": "launch",
+            "mainClass": "_1672_Riches_Custumer_Wealth",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _27_Remvove_Element",
+            "request": "launch",
+            "mainClass": "_27_Remvove_Element",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _88_Merge_sort",
+            "request": "launch",
+            "mainClass": "_88_Merge_sort",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch _88_Merge_Sorted_Array",
+            "request": "launch",
+            "mainClass": "_88_Merge_Sorted_Array",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch __1295__Find__Numbers__with",
+            "request": "launch",
+            "mainClass": "__1295__Find__Numbers__with",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch __1295__Find__Numbers__with",
+            "request": "launch",
+            "mainClass": "Day__1.__1295__Find__Numbers__with",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lesson__1",
+            "request": "launch",
+            "mainClass": "Lesson__1",
+            "projectName": "Data Structure & Algorihm_bba08b3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

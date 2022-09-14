@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSX</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+
+    <!-- JSX -> Javascript XML
+    1. Dùng synax html trong render ReactJS
+    2. Giúp đỡ tốn cú pháp
+    3. Tạo ra biến và gán JSX cho biến
+    cont ul = <ul><li>Javascript</li><li>PHP</li></ul>
+    <=> const usl = React.createElement('ul', {},
+            React.createElement('li', {}, 'Javascript'),
+            React.createElement('li', {}, 'ReactJS'),
+        );
+    
+    4. Có thể code Javascript đan xen
+    const reactCourse = 'ReacJS Course F8';
+    cont ul = <ul className="courses-list">
+                 <li style={{color: 'red'}}>Javascript</li>
+                <li>
+                     {reactCourse}  
+                     </li>
+                </ul>
+    Style nhận mộn object nên phải 2 ngoặc"{}"
+    -->
+    <div id="root"></div>
+
+
+    <script type="text/babel">
+        const reactCourse = 'ReacJS Course F8';
+        const courses = [
+            {
+                name: 'HTML, CSS',
+            }, 
+            {
+                name:'Responsive Web design'
+            },
+            {
+                name: 'ReactJS'
+            }
+        ]
+        const ul = <ul className="courses-list">
+            {
+                courses.map((course, index) => 
+                 <li key={index}>{course.name}</li>
+                )
+                
+                // courses.map(course => React.createElement('li', {}, course.name))
+            }
+        </ul>
+
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        root.render(ul);
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+Khi chưa được gán hoặc chưa khai báo = Undefine
+Khi được gán giá trị null = null
+
+Undefined
+	+ Chưa có kết quả return nhưng được gọi ra
+	+ Chưa gán giá trị cho parameter nhưng sử dụng nó thì là undefined
+	+ Truy cập đến property của object mà chưa được định nghĩa or không tồn tại thì nó undefined
+	
+Null: want to use null need to assign it
+	+ type of null is a object
+	+ Explicity Không ngầm định(rõ ràng)
+
+*Check null and undefined
+	+ Case 1: If(x) => If x is not undefined =  x ok
+	=> It will default x convert to a number, it convert undefined and null to boolean
+	*Note: Khi sử dụng biểu thức này các trường hợp convert sang flase = NaN, 0 Empty string,..
+	
+	+ Case 2: if(x == undefined)
+	Trong trường nợp này chỉ khi bằng undefined mới xảy ra còn khi NaN or các thứ khác đều được tính là True
+	! Nếu truyền null trong trường hợp này thì null = undefiend 
+	-- Để Null & Undefined Use => "===" 
+
+	+ Case 3: Undefined không phải là một từ khóa do đó sẽ có lúc người gán
+	Undefined = xxx => x == undefined == Undefined == false
+	=> Use if(x == void 0) => Undefined == Undefined = true
+
+	+ Case 4: if(x == null)
+
+	Case 5: if(typeof x == 'undefined');
+	=> Only for undefined

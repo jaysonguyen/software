@@ -1,0 +1,13 @@
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.exe
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.deps.json
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.json
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.dev.json
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.dll
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.pdb
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfo.cs
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.dll
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.pdb
+C:\Users\nowst\OneDrive - Ho Chi Minh City University of Foreign Languages and Information Technology - HUFLIT\Documents\C#\OOP-UNI\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.genruntimeconfig.cache
