@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T09:40:26.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Zu8QawuJGSZxVd2k0QL_" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T15:18:09.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DIfsEp-fjZPBi5Q7OsGL" version="20.3.3" type="github">
   <diagram id="P_BZW2JWN4PclsPSSylG" name="Page-1">
     <mxGraphModel dx="1811" dy="1105" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -425,7 +425,7 @@
           <mxGeometry x="559" y="755.5" width="102" height="53.5" as="geometry" />
         </mxCell>
         <mxCell id="imz9l-xepYDmz30WCTFW-122" value="Ten nguoi dung" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="661" y="809" width="108" height="54" as="geometry" />
+          <mxGeometry x="627.5" y="817.63" width="108" height="54" as="geometry" />
         </mxCell>
         <mxCell id="imz9l-xepYDmz30WCTFW-123" value="Mat Khẩu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="799" y="772.63" width="108" height="45" as="geometry" />
